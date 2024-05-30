@@ -1,0 +1,60 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+}
+
+.game-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #004d40;
+    width: 300px;
+}
+
+.kel-container {
+    margin: 20px 0;
+}
+
+.kel-image {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#collect-button:hover {
+    background-color: #004d40;
+}
+
+p {
+    font-size: 20px;
+    color: #004d40;
+}
+
+span {
+    font-weight: bold;
+    color: #00796b;
+}
